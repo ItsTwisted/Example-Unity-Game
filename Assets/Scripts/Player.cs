@@ -61,21 +61,21 @@ public class Player : MonoBehaviour {
 
 		//Mouse test
 		//Check if left mouse button has been pressed down THIS FRAME!!!
-		if (Input.GetMouseButtonDown (0) == true) {
-			Debug.Log ("Mouse left button just pressed down");
-			}
-		if (Input.GetMouseButton (0) == true) {
-			Debug.Log ("Mouse left button held");
-		}
-		if (Input.GetMouseButtonUp (0) == true) {
-			Debug.Log ("Mouse left button just released");
-		}
-		if (Input.GetMouseButtonDown (1) == true) {
-			Debug.Log ("Mouse right button just pressed down");
-		}
-
-		Debug.Log ("Mouse position = " + Input.mousePosition);
-
+//		if (Input.GetMouseButtonDown (0) == true) {
+//			Debug.Log ("Mouse left button just pressed down");
+//			}
+//		if (Input.GetMouseButton (0) == true) {
+//			Debug.Log ("Mouse left button held");
+//		}
+//		if (Input.GetMouseButtonUp (0) == true) {
+//			Debug.Log ("Mouse left button just released");
+//		}
+//		if (Input.GetMouseButtonDown (1) == true) {
+//			Debug.Log ("Mouse right button just pressed down");
+//		}
+//
+//		Debug.Log ("Mouse position = " + Input.mousePosition);
+//
 	} // end Update()
 
 	public void Damage(float damageToDeal)
