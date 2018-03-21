@@ -38,6 +38,9 @@ public class Player : MonoBehaviour {
 		// Get our sprite renderer component attached to this object
 		SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
 
+		//flip the sprite on the x axis only if velocity x is less than 0
+		renderer.flipX = velocity.x < 0;
+
 		// Are we done being invulnerable?
 		if (Time.time >= invulnerableEndTime) {
 			// if NOT invulnerable...
