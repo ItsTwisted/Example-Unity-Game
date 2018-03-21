@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
 	public float speed = 5;
-	public float jumpSpeed = 7;
+	public float jumpSpeed = 12;
 	public float health = 100;
 	public float invulnerableDuration = 1;
 	public float blinkDuration = 0.5f;
