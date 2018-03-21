@@ -1,31 +1,35 @@
 fileFormatVersion: 2
-guid: e0cbe33d5953ae4458328400f60fc9d8
-timeCreated: 1518618155
+guid: 648a5060e366f40eba814d06e10c845c
+timeCreated: 1518617983
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ItemsSprites-Coin-1
-    21300002: ItemsSprites-Coin-2
-    21300004: ItemsSprites-Coin-3
-    21300006: ItemsSprites-Coin-4
-    21300008: ItemsSprites-1Up
-    21300010: ItemsSprites-Coin-9
-    21300012: ItemsSprites-Coin-5
-    21300014: ItemsSprites-Coin-6
-    21300016: ItemsSprites-Coin-7
-    21300018: ItemsSprites-Coin-8
-    21300020: ItemsSprites-Coin-10
-    21300022: ItemsSprites-Coin-11
-    21300024: ItemsSprites-Star-1
-    21300026: ItemsSprites-Star-2
-    21300028: ItemsSprites-Star-3
-    21300030: ItemsSprites-Star-4
-    21300032: ItemsSprites-FireFlower-1
-    21300034: ItemsSprites-FireFlower-2
-    21300036: ItemsSprites-FireFlower-3
-    21300038: ItemsSprites-FireFlower-4
-    21300040: ItemsSprites-Mushroom-Big
-    21300042: ItemsSprites-Mushroom-1Up
+    21300000: MarioSprites-Big-Stand
+    21300002: MarioSprites-Big-Walk-1
+    21300004: MarioSprites-Big-Walk-2
+    21300006: MarioSprites-Big-Walk-3
+    21300008: MarioSprites-Big-Stop
+    21300010: MarioSprites-Big-Jump
+    21300012: MarioSprites-Big-Crouch
+    21300014: MarioSprites-Big-Shrink
+    21300016: MarioSprites-Big-Fire-Stand
+    21300018: MarioSprites-Big-Fire-Walk-1
+    21300020: MarioSprites-Big-Fire-Walk-2
+    21300022: MarioSprites-Big-Fire-Walk-3
+    21300024: MarioSprites-Big-Fire-Stop
+    21300026: MarioSprites-Big-Fire-Jump
+    21300028: MarioSprites-Big-Fire-Crouch
+    21300030: MarioSprites-Big-Fire-Shrink
+    21300032: MarioSprites-Big-Run-1
+    21300034: MarioSprites-Big-Run-2
+    21300036: MarioSprites-Big-Run-3
+    21300038: MarioSprites-Big-Run-4
+    21300040: MarioSprites-Big-Run-5
+    21300042: MarioSprites-Big-Fire-Run-1
+    21300044: MarioSprites-Big-Fire-Run-2
+    21300046: MarioSprites-Big-Fire-Run-3
+    21300048: MarioSprites-Big-Fire-Run-4
+    21300050: MarioSprites-Big-Fire-Run-5
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -49,12 +53,12 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 16
+    aniso: -1
     mipBias: -1
     wrapU: 1
     wrapV: 1
@@ -127,309 +131,365 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ItemsSprites-Coin-1
+      name: MarioSprites-Big-Stand
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 96
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-2
+      name: MarioSprites-Big-Walk-1
       rect:
         serializedVersion: 2
         x: 16
-        y: 48
+        y: 96
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-3
+      name: MarioSprites-Big-Walk-2
       rect:
         serializedVersion: 2
         x: 32
-        y: 48
+        y: 96
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-4
+      name: MarioSprites-Big-Walk-3
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
+        y: 96
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-1Up
+      name: MarioSprites-Big-Stop
       rect:
         serializedVersion: 2
         x: 64
-        y: 48
+        y: 96
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-9
+      name: MarioSprites-Big-Jump
       rect:
         serializedVersion: 2
         x: 80
-        y: 48
+        y: 96
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-5
+      name: MarioSprites-Big-Crouch
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Shrink
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Fire-Stand
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Fire-Walk-1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Fire-Walk-2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Fire-Walk-3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Fire-Stop
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Fire-Jump
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Fire-Crouch
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Fire-Shrink
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Big-Run-1
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-6
+      name: MarioSprites-Big-Run-2
       rect:
         serializedVersion: 2
         x: 16
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-7
+      name: MarioSprites-Big-Run-3
       rect:
         serializedVersion: 2
         x: 32
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-8
+      name: MarioSprites-Big-Run-4
       rect:
         serializedVersion: 2
         x: 48
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-10
+      name: MarioSprites-Big-Run-5
       rect:
         serializedVersion: 2
         x: 64
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-11
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Star-1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Star-2
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Star-3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Star-4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-FireFlower-1
+      name: MarioSprites-Big-Fire-Run-1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-FireFlower-2
+      name: MarioSprites-Big-Fire-Run-2
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-FireFlower-3
+      name: MarioSprites-Big-Fire-Run-3
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-FireFlower-4
+      name: MarioSprites-Big-Fire-Run-4
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Mushroom-Big
+      name: MarioSprites-Big-Fire-Run-5
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Mushroom-1Up
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

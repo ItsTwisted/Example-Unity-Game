@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: e0cbe33d5953ae4458328400f60fc9d8
-timeCreated: 1518618155
+guid: beec8a57954ba4b368b95471e4f18785
+timeCreated: 1518618667
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ItemsSprites-Coin-1
-    21300002: ItemsSprites-Coin-2
-    21300004: ItemsSprites-Coin-3
-    21300006: ItemsSprites-Coin-4
-    21300008: ItemsSprites-1Up
-    21300010: ItemsSprites-Coin-9
-    21300012: ItemsSprites-Coin-5
-    21300014: ItemsSprites-Coin-6
-    21300016: ItemsSprites-Coin-7
-    21300018: ItemsSprites-Coin-8
-    21300020: ItemsSprites-Coin-10
-    21300022: ItemsSprites-Coin-11
-    21300024: ItemsSprites-Star-1
-    21300026: ItemsSprites-Star-2
-    21300028: ItemsSprites-Star-3
-    21300030: ItemsSprites-Star-4
-    21300032: ItemsSprites-FireFlower-1
-    21300034: ItemsSprites-FireFlower-2
-    21300036: ItemsSprites-FireFlower-3
-    21300038: ItemsSprites-FireFlower-4
-    21300040: ItemsSprites-Mushroom-Big
-    21300042: ItemsSprites-Mushroom-1Up
+    21300000: CastleSprites-Parapet
+    21300002: CastleSprites-Door-Top
+    21300004: CastleSprites-Parapet-Mid
+    21300006: CastleSprites-Door-Bottom
+    21300008: CastleSprites-Brick
+    21300010: CastleSprites-Window-1
+    21300012: CastleSprites-FlagPole-Top
+    21300014: CastleSprites-Window-2
+    21300016: CastleSprites-FlagPole-Pole
+    21300018: CastleSprites-Flag
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -49,12 +37,12 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 16
+    aniso: -1
     mipBias: -1
     wrapU: 1
     wrapV: 1
@@ -127,7 +115,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ItemsSprites-Coin-1
+      name: CastleSprites-Parapet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CastleSprites-Door-Top
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CastleSprites-Parapet-Mid
       rect:
         serializedVersion: 2
         x: 0
@@ -141,11 +157,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-2
+      name: CastleSprites-Door-Bottom
       rect:
         serializedVersion: 2
         x: 16
-        y: 48
+        y: 49
         width: 16
         height: 16
       alignment: 0
@@ -155,63 +171,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-1Up
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-9
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-5
+      name: CastleSprites-Brick
       rect:
         serializedVersion: 2
         x: 0
@@ -225,11 +185,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-6
+      name: CastleSprites-Window-1
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 33
         width: 16
         height: 16
       alignment: 0
@@ -239,63 +199,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-8
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-11
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Star-1
+      name: CastleSprites-FlagPole-Top
       rect:
         serializedVersion: 2
         x: 0
@@ -309,7 +213,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Star-2
+      name: CastleSprites-Window-2
       rect:
         serializedVersion: 2
         x: 16
@@ -323,35 +227,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Star-3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Star-4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-FireFlower-1
+      name: CastleSprites-FlagPole-Pole
       rect:
         serializedVersion: 2
         x: 0
@@ -365,66 +241,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-FireFlower-2
+      name: CastleSprites-Flag
       rect:
         serializedVersion: 2
         x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-FireFlower-3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-FireFlower-4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Mushroom-Big
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Mushroom-1Up
-      rect:
-        serializedVersion: 2
-        x: 80
         y: 0
         width: 16
         height: 16

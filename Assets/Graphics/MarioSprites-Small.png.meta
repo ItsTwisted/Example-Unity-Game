@@ -1,31 +1,23 @@
 fileFormatVersion: 2
-guid: e0cbe33d5953ae4458328400f60fc9d8
-timeCreated: 1518618155
+guid: 08c941342898e43c2a9d3f5c1a7d7a00
+timeCreated: 1518617755
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ItemsSprites-Coin-1
-    21300002: ItemsSprites-Coin-2
-    21300004: ItemsSprites-Coin-3
-    21300006: ItemsSprites-Coin-4
-    21300008: ItemsSprites-1Up
-    21300010: ItemsSprites-Coin-9
-    21300012: ItemsSprites-Coin-5
-    21300014: ItemsSprites-Coin-6
-    21300016: ItemsSprites-Coin-7
-    21300018: ItemsSprites-Coin-8
-    21300020: ItemsSprites-Coin-10
-    21300022: ItemsSprites-Coin-11
-    21300024: ItemsSprites-Star-1
-    21300026: ItemsSprites-Star-2
-    21300028: ItemsSprites-Star-3
-    21300030: ItemsSprites-Star-4
-    21300032: ItemsSprites-FireFlower-1
-    21300034: ItemsSprites-FireFlower-2
-    21300036: ItemsSprites-FireFlower-3
-    21300038: ItemsSprites-FireFlower-4
-    21300040: ItemsSprites-Mushroom-Big
-    21300042: ItemsSprites-Mushroom-1Up
+    21300000: MarioSprites-Small-Stand
+    21300002: MarioSprites-Small-Walk-1
+    21300004: MarioSprites-Small-Walk-2
+    21300006: MarioSprites-Small-Walk-3
+    21300008: MarioSprites-Small-Stop
+    21300010: MarioSprites-Small-Jump
+    21300012: MarioSprites-Small-Die
+    21300014: MarioSprites-Small-Fire-Stand
+    21300016: MarioSprites-Small-Fire-Walk-1
+    21300018: MarioSprites-Small-Fire-Walk-2
+    21300020: MarioSprites-Small-Fire-Walk-3
+    21300022: MarioSprites-Small-Fire-Stop
+    21300024: MarioSprites-Small-Fire-Jump
+    21300026: MarioSprites-Small-Fire-Die
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -49,12 +41,12 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 16
+    aniso: -1
     mipBias: -1
     wrapU: 1
     wrapV: 1
@@ -127,231 +119,105 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ItemsSprites-Coin-1
+      name: MarioSprites-Small-Stand
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-2
+      name: MarioSprites-Small-Walk-1
       rect:
         serializedVersion: 2
         x: 16
-        y: 48
+        y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-3
+      name: MarioSprites-Small-Walk-2
       rect:
         serializedVersion: 2
         x: 32
-        y: 48
+        y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-4
+      name: MarioSprites-Small-Walk-3
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
+        y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-1Up
+      name: MarioSprites-Small-Stop
       rect:
         serializedVersion: 2
         x: 64
-        y: 48
+        y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Coin-9
+      name: MarioSprites-Small-Jump
       rect:
         serializedVersion: 2
         x: 80
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-6
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-8
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Coin-11
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Star-1
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Star-2
+      name: MarioSprites-Small-Die
       rect:
         serializedVersion: 2
-        x: 16
+        x: 96
         y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Star-3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-Star-4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ItemsSprites-FireFlower-1
+      name: MarioSprites-Small-Fire-Stand
       rect:
         serializedVersion: 2
         x: 0
@@ -359,13 +225,13 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-FireFlower-2
+      name: MarioSprites-Small-Fire-Walk-1
       rect:
         serializedVersion: 2
         x: 16
@@ -373,13 +239,13 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-FireFlower-3
+      name: MarioSprites-Small-Fire-Walk-2
       rect:
         serializedVersion: 2
         x: 32
@@ -387,13 +253,13 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-FireFlower-4
+      name: MarioSprites-Small-Fire-Walk-3
       rect:
         serializedVersion: 2
         x: 48
@@ -401,13 +267,13 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Mushroom-Big
+      name: MarioSprites-Small-Fire-Stop
       rect:
         serializedVersion: 2
         x: 64
@@ -415,13 +281,13 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ItemsSprites-Mushroom-1Up
+      name: MarioSprites-Small-Fire-Jump
       rect:
         serializedVersion: 2
         x: 80
@@ -429,7 +295,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MarioSprites-Small-Fire-Die
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
