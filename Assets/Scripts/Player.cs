@@ -19,7 +19,19 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Rigidbody2D ourRigidBody = GetComponent<Rigidbody2D> ();
-		ourRigidBody.velocity = Vector2.right * speed;
+
+		//Get the current horizontal input (left/right arrows) - between -1 and 1.
+		float horizontal = Input.GetAxis ("Horizontal");
+
+		//Get the current velocity from the physics system
+		Vector2 velocity = ourRigidBody.velocity;
+
+		//Set our velocity based on the input and our speed value
+		velocity.x = horizontal * speed;
+
+		//Put this velocity back in the physics system
+		ourRigidBody.velocity = velocity;
+
 
 		// Handle blinking while invulnerable:
 
