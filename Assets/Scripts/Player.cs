@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
 	public float speed = 5;
+	public float jumpSpeed = 7;
 	public float health = 100;
 	public float invulnerableDuration = 1;
 	public float blinkDuration = 0.5f;
@@ -28,6 +29,15 @@ public class Player : MonoBehaviour {
 
 		//Set our velocity based on the input and our speed value
 		velocity.x = horizontal * speed;
+
+
+		//Jump logic
+		bool jumpPressed = Input.GetButtonDown("Jump");
+
+		if (jumpPressed == true) {
+			velocity.y = jumpSpeed;
+
+		}
 
 		//Put this velocity back in the physics system
 		ourRigidBody.velocity = velocity;
